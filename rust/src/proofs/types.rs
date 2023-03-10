@@ -135,7 +135,7 @@ impl From<api::RegisteredPoStProof> for RegisteredPoStProof {
             // V1_2 to fix the grindability issue, which we map here
             // as V1_1 for Lotus/actors compat reasons.
             //
-            // Translation: Proofs api_version WindowPoStV1_2 -> WindowPoStV1_1 here 
+            // Translation: Proofs api_version WindowPoStV1_2 -> WindowPoStV1_1 here
             StackedDrgWindow2KiBV1_2 => RegisteredPoStProof::StackedDrgWindow2KiBV1_1,
             StackedDrgWindow8MiBV1_2 => RegisteredPoStProof::StackedDrgWindow8MiBV1_1,
             StackedDrgWindow512MiBV1_2 => RegisteredPoStProof::StackedDrgWindow512MiBV1_1,

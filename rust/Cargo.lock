@@ -1213,7 +1213,7 @@ dependencies = [
 [[package]]
 name = "filecoin-hashers"
 version = "8.0.0"
-source = "git+https://github.com/filecoin-project/rust-fil-proofs#e4bbde634dddcdc4861a01f1febfdd896d937e7d"
+source = "git+https://github.com/filecoin-project/rust-fil-proofs#7809b42417f923ced415115e745b43a7a88a3459"
 dependencies = [
  "anyhow",
  "bellperson",
@@ -1264,7 +1264,7 @@ dependencies = [
 [[package]]
 name = "filecoin-proofs"
 version = "13.0.0"
-source = "git+https://github.com/filecoin-project/rust-fil-proofs#e4bbde634dddcdc4861a01f1febfdd896d937e7d"
+source = "git+https://github.com/filecoin-project/rust-fil-proofs#7809b42417f923ced415115e745b43a7a88a3459"
 dependencies = [
  "anyhow",
  "bellperson",
@@ -1404,7 +1404,7 @@ dependencies = [
 [[package]]
 name = "fr32"
 version = "6.0.0"
-source = "git+https://github.com/filecoin-project/rust-fil-proofs#e4bbde634dddcdc4861a01f1febfdd896d937e7d"
+source = "git+https://github.com/filecoin-project/rust-fil-proofs#7809b42417f923ced415115e745b43a7a88a3459"
 dependencies = [
  "anyhow",
  "blstrs",
@@ -3036,7 +3036,7 @@ dependencies = [
 [[package]]
 name = "sha2raw"
 version = "8.0.0"
-source = "git+https://github.com/filecoin-project/rust-fil-proofs#e4bbde634dddcdc4861a01f1febfdd896d937e7d"
+source = "git+https://github.com/filecoin-project/rust-fil-proofs#7809b42417f923ced415115e745b43a7a88a3459"
 dependencies = [
  "byteorder",
  "cpufeatures",
@@ -3128,7 +3128,7 @@ dependencies = [
 [[package]]
 name = "storage-proofs-core"
 version = "13.0.0"
-source = "git+https://github.com/filecoin-project/rust-fil-proofs#e4bbde634dddcdc4861a01f1febfdd896d937e7d"
+source = "git+https://github.com/filecoin-project/rust-fil-proofs#7809b42417f923ced415115e745b43a7a88a3459"
 dependencies = [
  "aes",
  "anyhow",
@@ -3200,7 +3200,7 @@ dependencies = [
 [[package]]
 name = "storage-proofs-porep"
 version = "13.0.0"
-source = "git+https://github.com/filecoin-project/rust-fil-proofs#e4bbde634dddcdc4861a01f1febfdd896d937e7d"
+source = "git+https://github.com/filecoin-project/rust-fil-proofs#7809b42417f923ced415115e745b43a7a88a3459"
 dependencies = [
  "anyhow",
  "bellperson",
@@ -3227,6 +3227,7 @@ dependencies = [
  "num_cpus",
  "pretty_assertions",
  "rayon",
+ "rustversion",
  "serde",
  "serde_json",
  "sha2 0.10.6",
@@ -3261,7 +3262,7 @@ dependencies = [
 [[package]]
 name = "storage-proofs-post"
 version = "13.0.0"
-source = "git+https://github.com/filecoin-project/rust-fil-proofs#e4bbde634dddcdc4861a01f1febfdd896d937e7d"
+source = "git+https://github.com/filecoin-project/rust-fil-proofs#7809b42417f923ced415115e745b43a7a88a3459"
 dependencies = [
  "anyhow",
  "bellperson",
@@ -3307,7 +3308,7 @@ dependencies = [
 [[package]]
 name = "storage-proofs-update"
 version = "13.0.0"
-source = "git+https://github.com/filecoin-project/rust-fil-proofs#e4bbde634dddcdc4861a01f1febfdd896d937e7d"
+source = "git+https://github.com/filecoin-project/rust-fil-proofs#7809b42417f923ced415115e745b43a7a88a3459"
 dependencies = [
  "anyhow",
  "bellperson",
