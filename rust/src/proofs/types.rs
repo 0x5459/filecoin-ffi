@@ -135,12 +135,12 @@ impl From<api::RegisteredPoStProof> for RegisteredPoStProof {
             // V1_2 to fix the grindability issue, which we map here
             // as V1_1 for Lotus/actors compat reasons.
             //
-            // Translation: WindowPoStV1_1 here -> Proofs api_version WindowPoStV1_2
-            StackedDrgWindow2KiBV1_1 => RegisteredPoStProof::StackedDrgWindow2KiBV1_2,
-            StackedDrgWindow8MiBV1_1 => RegisteredPoStProof::StackedDrgWindow8MiBV1_2,
-            StackedDrgWindow512MiBV1_1 => RegisteredPoStProof::StackedDrgWindow512MiBV1_2,
-            StackedDrgWindow32GiBV1_1 => RegisteredPoStProof::StackedDrgWindow32GiBV1_2,
-            StackedDrgWindow64GiBV1_1 => RegisteredPoStProof::StackedDrgWindow64GiBV1_2,
+            // Translation: Proofs api_version WindowPoStV1_2 -> WindowPoStV1_1 here 
+            StackedDrgWindow2KiBV1_2 => RegisteredPoStProof::StackedDrgWindow2KiBV1_1,
+            StackedDrgWindow8MiBV1_2 => RegisteredPoStProof::StackedDrgWindow8MiBV1_1,
+            StackedDrgWindow512MiBV1_2 => RegisteredPoStProof::StackedDrgWindow512MiBV1_1,
+            StackedDrgWindow32GiBV1_2 => RegisteredPoStProof::StackedDrgWindow32GiBV1_1,
+            StackedDrgWindow64GiBV1_2 => RegisteredPoStProof::StackedDrgWindow64GiBV1_1,
         }
     }
 }
@@ -165,12 +165,12 @@ impl From<RegisteredPoStProof> for api::RegisteredPoStProof {
             // V1_2 to fix the grindability issue, which we map here
             // as V1_1 for Lotus/actors compat reasons.
             //
-            // Translation: Proofs api_version WindowPoStV1_2 -> WindowPoStV1_1 here
-            RegisteredPoStProof::StackedDrgWindow2KiBV1_2 => StackedDrgWindow2KiBV1_1,
-            RegisteredPoStProof::StackedDrgWindow8MiBV1_2 => StackedDrgWindow8MiBV1_1,
-            RegisteredPoStProof::StackedDrgWindow512MiBV1_2 => StackedDrgWindow512MiBV1_1,
-            RegisteredPoStProof::StackedDrgWindow32GiBV1_2 => StackedDrgWindow32GiBV1_1,
-            RegisteredPoStProof::StackedDrgWindow64GiBV1_2 => StackedDrgWindow64GiBV1_1,
+            // Translation: WindowPoStV1_1 here -> Proofs api_version WindowPoStV1_2
+            RegisteredPoStProof::StackedDrgWindow2KiBV1_1 => StackedDrgWindow2KiBV1_2,
+            RegisteredPoStProof::StackedDrgWindow8MiBV1_1 => StackedDrgWindow8MiBV1_2,
+            RegisteredPoStProof::StackedDrgWindow512MiBV1_1 => StackedDrgWindow512MiBV1_2,
+            RegisteredPoStProof::StackedDrgWindow32GiBV1_1 => StackedDrgWindow32GiBV1_2,
+            RegisteredPoStProof::StackedDrgWindow64GiBV1_1 => StackedDrgWindow64GiBV1_2,
         }
     }
 }
