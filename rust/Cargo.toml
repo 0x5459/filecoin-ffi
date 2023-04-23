@@ -37,7 +37,7 @@ fvm3 = { package = "fvm", version = "~3.2", default-features = false }
 fvm3_shared = { package = "fvm_shared", version = "~3.2" }
 fvm3_ipld_encoding = { package = "fvm_ipld_encoding", version = "0.3.3" }
 fvm2 = { package = "fvm", version = "~2.3", default-features = false }
-fvm2_shared = { package = "fvm_shared", version = "~2.3" }
+fvm2_shared = { package = "fvm_shared", git = "https://github.com/0x5459/ref-fvm", branch = "fix/0x5459/v1p1-to-v1_2", version = "~2.3" }
 fvm2_ipld_encoding = { package = "fvm_ipld_encoding", version = "0.2.3" }
 fvm_ipld_blockstore = "0.1.1"
 num-traits = "0.2.14"
