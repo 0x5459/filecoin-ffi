@@ -63,3 +63,7 @@ opencl = ["filecoin-proofs-api/opencl", "rust-gpu-tools/opencl", "fvm3/opencl", 
 cuda = ["filecoin-proofs-api/cuda", "rust-gpu-tools/cuda", "fvm3/cuda", "fvm2/cuda"]
 multicore-sdr = ["filecoin-proofs-api/multicore-sdr"]
 c-headers = ["safer-ffi/headers"]
+
+[patch.crates-io]
+fvm3 = { package = "fvm", git = "https://github.com/0x5459/ref-fvm.git", branch = "fix/0x5459/v1p1-to-v1_2", default-features = false }
+fvm3_shared = { package = "fvm_shared", git = "https://github.com/0x5459/ref-fvm.git", branch = "fix/0x5459/v1p1-to-v1_2" }
